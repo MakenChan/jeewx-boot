@@ -247,7 +247,6 @@ public class MessageUtil {
 
         // 释放资源
         inputStream.close();
-        inputStream = null;
 
         return map;
     }

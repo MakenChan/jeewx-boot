@@ -29,6 +29,7 @@ public final static Logger log = LoggerFactory.getLogger(BaseApiWeixinServiceImp
 	 * @param tmessageSendVO
 	 * @return
 	 */
+	@Override
 	public JSONObject SendTemplateMsg(TmessageSendVO tmessageSendVO) {
 		JSONObject result = null;
 		if(oConvertUtils.isEmpty(tmessageSendVO.getTouser())) {

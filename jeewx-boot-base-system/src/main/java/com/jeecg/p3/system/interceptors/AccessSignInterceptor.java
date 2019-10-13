@@ -40,6 +40,7 @@ public class AccessSignInterceptor implements HandlerInterceptor {
 	/**
 	 * 活动访问签名拦截，防止串改数据
 	 */
+	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object object) throws Exception {
         // 注解排除权限拦截机制
         if (this.skipPermission(object)) {

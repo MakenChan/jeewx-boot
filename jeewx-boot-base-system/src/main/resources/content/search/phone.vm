@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    #parse("content/base/back/common/head.vm")
+<link href="$!{basePath}/plug-in/css/searchStyle.css" rel="stylesheet">
+<body>
+
+<div class="panel">
+    <div class="wrap">
+        <input type="text" placeholder="请输入要查找的姓名(简写、缩写、小名都可)"/>
+        <button>查找!</button>
+    </div>
+</div>
+</body>
+
+</html>
